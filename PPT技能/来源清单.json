@@ -1,0 +1,2097 @@
+{
+  "collected_date": "2026-10-21",
+  "layout": "6 categories, 7 discussed skills; 5 complete skill directories mirrored plus officecli-pptx dependency; 2 official-entry-only records",
+  "snapshots": [
+    {
+      "repository": "Yusong-Enceladus/pptx-animation-skill",
+      "source_directory": "pptx-animation/",
+      "target_directory": "PPT技能/03-入场动画/pptx-animation/",
+      "source_tree_sha": "a88ccf628cda814be55435d751aa6971f48b064e",
+      "licenses": [
+        "LICENSE"
+      ]
+    },
+    {
+      "repository": "zarazhangrui/frontend-slides",
+      "source_directory": "plugins/frontend-slides/skills/frontend-slides/",
+      "target_directory": "PPT技能/04-网页动态演示/frontend-slides/",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "licenses": [
+        "LICENSE"
+      ]
+    },
+    {
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_directory": "skills/morph-ppt/",
+      "target_directory": "PPT技能/02-平滑转场/morph-ppt/",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "licenses": [
+        "LICENSE.md",
+        "NOTICE.md"
+      ]
+    },
+    {
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_directory": "skills/officecli-pptx/",
+      "target_directory": "PPT技能/02-平滑转场/officecli-pptx/",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "licenses": []
+    },
+    {
+      "repository": "JimLiu/baoyu-skills",
+      "source_directory": "skills/baoyu-slide-deck/",
+      "target_directory": "PPT技能/06-视觉素材/baoyu-slide-deck/",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "licenses": [
+        "LICENSE"
+      ]
+    },
+    {
+      "repository": "JimLiu/baoyu-skills",
+      "source_directory": "skills/baoyu-image-gen/",
+      "target_directory": "PPT技能/06-视觉素材/baoyu-image-gen/",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "licenses": [
+        "LICENSE"
+      ]
+    }
+  ],
+  "official_entries": [
+    {
+      "skill": "anthropic-pptx",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/pptx",
+      "reason": "Upstream LICENSE.txt explicitly restricts copying and distribution."
+    },
+    {
+      "skill": "Remotion Skills",
+      "url": "https://github.com/remotion-dev/skills",
+      "source_tree_sha": "039e8a2fc78b67efc228d5645367838b85818a1c",
+      "reason": "Official installation entry retained; mirror has no standalone LICENSE file. Framework license linked in category README."
+    }
+  ],
+  "files": [
+    {
+      "path": "PPT技能/03-入场动画/pptx-animation/agents/openai.yaml",
+      "repository": "Yusong-Enceladus/pptx-animation-skill",
+      "source_path": "pptx-animation/agents/openai.yaml",
+      "source_tree_sha": "a88ccf628cda814be55435d751aa6971f48b064e",
+      "git_blob_sha": "367b239e7fdae5effe07071723413ecd48c082c6"
+    },
+    {
+      "path": "PPT技能/03-入场动画/pptx-animation/scripts/cluster_blocks.py",
+      "repository": "Yusong-Enceladus/pptx-animation-skill",
+      "source_path": "pptx-animation/scripts/cluster_blocks.py",
+      "source_tree_sha": "a88ccf628cda814be55435d751aa6971f48b064e",
+      "git_blob_sha": "2962038cd0a6c6b28fec735c69fd767d24047533"
+    },
+    {
+      "path": "PPT技能/03-入场动画/pptx-animation/SKILL.md",
+      "repository": "Yusong-Enceladus/pptx-animation-skill",
+      "source_path": "pptx-animation/SKILL.md",
+      "source_tree_sha": "a88ccf628cda814be55435d751aa6971f48b064e",
+      "git_blob_sha": "247847dddc32a80d250aab645b7d7edc75325577"
+    },
+    {
+      "path": "PPT技能/03-入场动画/pptx-animation/scripts/list_shapes.py",
+      "repository": "Yusong-Enceladus/pptx-animation-skill",
+      "source_path": "pptx-animation/scripts/list_shapes.py",
+      "source_tree_sha": "a88ccf628cda814be55435d751aa6971f48b064e",
+      "git_blob_sha": "79416e281b5cbd04b43f91db1b42a969a2bb8b5a"
+    },
+    {
+      "path": "PPT技能/03-入场动画/pptx-animation/scripts/add_click_animations.py",
+      "repository": "Yusong-Enceladus/pptx-animation-skill",
+      "source_path": "pptx-animation/scripts/add_click_animations.py",
+      "source_tree_sha": "a88ccf628cda814be55435d751aa6971f48b064e",
+      "git_blob_sha": "6f8d7733acdb50b532c2b7ecb85cebe48f0a2037"
+    },
+    {
+      "path": "PPT技能/03-入场动画/pptx-animation/references/ooxml_timing.md",
+      "repository": "Yusong-Enceladus/pptx-animation-skill",
+      "source_path": "pptx-animation/references/ooxml_timing.md",
+      "source_tree_sha": "a88ccf628cda814be55435d751aa6971f48b064e",
+      "git_blob_sha": "8a469b4658cefbca6da8a82d6880fa32cb2af2e8"
+    },
+    {
+      "path": "PPT技能/03-入场动画/pptx-animation/scripts/inject_animations.py",
+      "repository": "Yusong-Enceladus/pptx-animation-skill",
+      "source_path": "pptx-animation/scripts/inject_animations.py",
+      "source_tree_sha": "a88ccf628cda814be55435d751aa6971f48b064e",
+      "git_blob_sha": "d65a0b926f5b4e7cdeb4ed9753fbefeda9cfd736"
+    },
+    {
+      "path": "PPT技能/03-入场动画/pptx-animation/LICENSE",
+      "repository": "Yusong-Enceladus/pptx-animation-skill",
+      "source_path": "LICENSE",
+      "source_tree_sha": "a88ccf628cda814be55435d751aa6971f48b064e",
+      "git_blob_sha": "d5143d6a71e436c4e32f9d1280d18cade294e5dc"
+    },
+    {
+      "path": "PPT技能/03-入场动画/pptx-animation/scripts/count_effects.py",
+      "repository": "Yusong-Enceladus/pptx-animation-skill",
+      "source_path": "pptx-animation/scripts/count_effects.py",
+      "source_tree_sha": "a88ccf628cda814be55435d751aa6971f48b064e",
+      "git_blob_sha": "82399376ef6cc58a1c08a67f12d9f33a8c68bd6b"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/STYLE_PRESETS.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/STYLE_PRESETS.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "f4045f18700584e3ceecf5800780098cdbff5a25"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/animation-patterns.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/animation-patterns.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "19bb61a941472a182a6beb0baf3cabdfc1f0e793"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/SKILL.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/SKILL.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "9b8374bf128db6d5c18921d170bdc6a230808f82"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/README.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/README.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "02cc6e69bd8a28b320349e194b1ae84e7c3d3f64"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/deck-stage.js",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/deck-stage.js",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "354a820d21485445b21234d529b71e3948d9745a"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/selection-index.json",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/selection-index.json",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "9b15d346f7b1fa1ebfdeaff38ffd2513ec9a763c"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/8-bit-orbit/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/8-bit-orbit/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "8faf71e941843f5e9c98bc4cc294dcf5217ceab7"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/8-bit-orbit/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/8-bit-orbit/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "31b772efbd992a212b0b44ac2e86ed896415fdf4"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/biennale-yellow/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/biennale-yellow/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "9a256c0460fb5c3454ae7f277cad2ea1b5cda7f6"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/block-frame/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/block-frame/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "2666b0b7c2177c14d56289ae181388bcb1aab37b"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/biennale-yellow/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/biennale-yellow/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "1d1856d6ffa09acff1258ad554e10bfb6f97d26c"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/bold-poster/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/bold-poster/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "9d65e0229a613520b054e14adeb544c81a678518"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/block-frame/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/block-frame/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "692fccc05ea28497bb2831723dc605d578b2cdda"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/blue-professional/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/blue-professional/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "78a040c0094ba94eb1cb55c00ba33ff0b490e438"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/bold-poster/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/bold-poster/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "d618c73d7122019fe518cec8b759370afc545722"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/broadside/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/broadside/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "7d8114e96bf60e15ae1ad3a61b96bd0e342369da"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/broadside/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/broadside/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "949b0961cbecdf28200be07ed27b77023489c2ce"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/blue-professional/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/blue-professional/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "e88c8951f184c1339e640cc0c204da7408bc735a"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/capsule/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/capsule/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "e90626ab1596992c3a102719ea7611c9a5cf6db9"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/capsule/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/capsule/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "80b74062884fef92990a50eb576ca521300cf835"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/cartesian/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/cartesian/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "f6e7dc3ac932320a4e35e30658ec4eb95636644d"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/cartesian/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/cartesian/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "609ebe05473d63b802745e466f4f96fefa92b30c"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/cobalt-grid/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/cobalt-grid/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "13a4a0b626336880f1e92f275347619028055c53"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/cobalt-grid/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/cobalt-grid/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "1490596ff59bcca23bd7f120d22deecef51f3c4d"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/coral/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/coral/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "b7358f0abcea38929f86590b2d0b751cfd3d514b"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/coral/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/coral/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "be58668263c126a27fe7479dbe6a789632d33ac8"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/creative-mode/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/creative-mode/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "a71a05844156e8c5aec13c9a2a30432598bf9497"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/daisy-days/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/daisy-days/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "2a3dcdf614a29691927deb476dcf0102e1cc7ddf"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/daisy-days/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/daisy-days/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "1b2891ebe9b6095ea0baf38463b00c09132cea7d"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/creative-mode/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/creative-mode/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "e133800fac24c9f8a57d38cb864648938ee59fa8"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/editorial-forest/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/editorial-forest/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "3c2b10a1def79f1b758c4b513f5e77d96cb6be0f"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/editorial-forest/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/editorial-forest/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "12a0d2efb8f1dd0449e5f0216d9f2b773bec12b3"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/editorial-tri-tone/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/editorial-tri-tone/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "8a4f1b25aa2f19dfaf76d768ca1dfd91bf25b41a"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/editorial-tri-tone/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/editorial-tri-tone/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "536ccb2573d38a44de273a577444ea0b8df38f12"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/emerald-editorial/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/emerald-editorial/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "52e2be7046e89c47e702d003b6ae9ff44d6e8fdf"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/grove/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/grove/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "b7b56281cdc7ab436adb770c5780f34c7b47916f"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/grove/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/grove/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "f7b815f3bfd011dcbfa0e43284af930496693378"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/emerald-editorial/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/emerald-editorial/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "20b56eb1763c52102acc6cf63144e81591c8f848"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/long-table/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/long-table/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "2e71840eb0ec005de9856d2e2110e76ca94b266f"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/mat/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/mat/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "728438085849f79376cb7352ef8c7071390f7b41"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/mat/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/mat/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "3f1d4f14b7ea99a9ab6dba3358ef2e143623e571"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/monochrome/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/monochrome/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "fd32d14b206eecb16d9c0d1c2fd3845759bad35c"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/neo-grid-bold/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/neo-grid-bold/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "9730a7b66e58f3fa65145571d93caff7b2e097b9"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/monochrome/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/monochrome/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "cead87d11e9268d9f7c3b6adbec7bb249723bc0c"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/long-table/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/long-table/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "b4eca405af29f7ad90ee9fa5cc64aa4fdfe7b192"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/neo-grid-bold/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/neo-grid-bold/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "001b4306d8f2989fe6d84234ff86431d2b5c8fae"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/peoples-platform/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/peoples-platform/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "599a81408784a437cae103d083dbafd6ae28f5b9"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/peoples-platform/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/peoples-platform/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "cb0fee62483499cf86066ebbea445d4fa0947e5e"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/pin-and-paper/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/pin-and-paper/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "7c06881db506b541b7f2e062e6dd4e03af46dc04"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/pin-and-paper/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/pin-and-paper/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "6ffe06f9dbca6aca3ce98263a3b806025987f07e"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/pink-script/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/pink-script/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "1834bf50c3c02115a246e93a8afcf5a7c5581105"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/playful/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/playful/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "53d6f06a8c6ecbc2a5741b0a3cb916226e192ff5"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/pink-script/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/pink-script/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "5ee4f70b62f4493b07974bf3ac9a5e82dbc50bbb"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/playful/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/playful/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "08bf53edf7eff659bfee1712332f9c60c8a2f4c9"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/retro-windows/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/retro-windows/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "bd99ef77c397a5d58446dbc3021bf83206ff8b5e"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/raw-grid/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/raw-grid/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "dc0381c056b3c0ef6e0aa7387eb7d240e38b34bb"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/raw-grid/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/raw-grid/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "d3f5d01ffe971568f399b4092a563f555d4e5c9b"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/retro-windows/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/retro-windows/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "e2c58e3c1ccd3bcdc16a17c0181df3fa5f60d924"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/retro-zine/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/retro-zine/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "a2b01c519f0f8cf01ba578d79d8f591ec9fe4334"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/sakura-chroma/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/sakura-chroma/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "00fd7dd2267ffb47322d2b5925c74c571e27ddab"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/sakura-chroma/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/sakura-chroma/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "778083295674155a88238ce77d3ad7f252e458ce"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/scatterbrain/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/scatterbrain/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "982348ef406840e616acdbcd15d64d26ac5a2cf0"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/scatterbrain/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/scatterbrain/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "f16c09ab5afc584d19eaf3f04b4c23ca3ba7cba3"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/retro-zine/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/retro-zine/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "8f8d5c7f7277216e0172d9eb2f8e9ff85039e2c8"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/signal/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/signal/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "fd4d0fdb70483c0161933976e5a4d19222c33f82"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/signal/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/signal/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "a4bd8f84e5db8063570a6dd1f3341764fa775910"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/studio/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/studio/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "080f8a225786b99f37e1ef68312171f86f580c8c"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/soft-editorial/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/soft-editorial/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "53ea388db6779dbbd49d137987672864e8c54ba1"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/soft-editorial/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/soft-editorial/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "6080fe81c4c3e38faeddfb871dc74262be15e33d"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/stencil-tablet/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/stencil-tablet/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "6ad8f4702c486dfb2d59c044d85b6fbfa82fec60"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/studio/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/studio/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "dda982e820fdfb3a6ba58fb1bd2198f1b69535e4"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/vellum/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/vellum/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "f2ebd295aa61314b9978aca33da54e871a316972"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/stencil-tablet/design.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/stencil-tablet/design.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "34e6e91e3d02122cfec4325cd82172dfe238c686"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/bold-template-pack/templates/vellum/preview.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/bold-template-pack/templates/vellum/preview.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "2244fe44ad70887ee5aef7976b87bfb7c26044f0"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/scripts/deploy.sh",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/scripts/deploy.sh",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "a5f79f2b31c0c4891b0d235623b22bcf13d7bd22"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/scripts/extract-pptx.py",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/scripts/extract-pptx.py",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "498e2a5e4c9d3f11bec09a3ca54cd6731491a0e3"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/scripts/export-pdf.sh",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/scripts/export-pdf.sh",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "8493d84faea2752cc065f313ac917641e7902b98"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/html-template.md",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/html-template.md",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "511aa9b98322dab8190eb0ec61fa191446cbb4c1"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/viewport-base.css",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "plugins/frontend-slides/skills/frontend-slides/viewport-base.css",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "0b35133bdb60f752da6482add385eb13ca6e536b"
+    },
+    {
+      "path": "PPT技能/04-网页动态演示/frontend-slides/LICENSE",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": "LICENSE",
+      "source_tree_sha": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "git_blob_sha": "746da6896f2da755b5b54987b4f29a7eea1320b5"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/SKILL.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/SKILL.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "2b067539dc334d9917e374afff0b76e96336b9b7"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/decision-rules.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/decision-rules.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "e7230bcbab66177e4c995260c6286efda13fea19"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/morph-helpers.py",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/morph-helpers.py",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "84d88f981190d67b0211f9677db656f39056c872"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/bw--brutalist-raw/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/bw--brutalist-raw/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "a92b0012872fcad865bb5c78f29424be32c59922"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/morph-helpers.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/morph-helpers.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "dbe9cfab6ec452fa29e4c004b7f380a3ef398a1f"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/pptx-design.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/pptx-design.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "31ece11d622b74011c7e531a2ede5b8d0cd886de"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/INDEX.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/INDEX.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "e0b9fc986aee970c76ddce1fb416ad7e17f595aa"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/bw--brutalist-raw/bw__brutalist_raw.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/bw--brutalist-raw/bw__brutalist_raw.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "ed6d89af055cb6e7583cba2711ea8d293b5c8603"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/bw--brutalist-raw/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/bw--brutalist-raw/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "99f536c5500f4425c3ed7df17838f8e3e9253059"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/bw--mono-line/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/bw--mono-line/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "d797f0809b3301e6bfa50f8118dd7188e2deda6a"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/bw--mono-line/bw__mono_line.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/bw--mono-line/bw__mono_line.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "57971a15fa64a0fa63226c664e0f5ba0dad8af26"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/bw--mono-line/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/bw--mono-line/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "d41bc20a75799cacfb1a0d0366510b0961b7782b"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/bw--swiss-bauhaus/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/bw--swiss-bauhaus/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "3c4196faa4b9ca278ea3cf04496dc077dc2328c7"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/bw--swiss-bauhaus/bw__swiss_bauhaus.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/bw--swiss-bauhaus/bw__swiss_bauhaus.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "33b924c9136238b15876e4dcb93a03cd181c2f48"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/bw--swiss-bauhaus/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/bw--swiss-bauhaus/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "87236bc303b3f0b943a943da7cfc966e6ea4e8b6"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/bw--swiss-system/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/bw--swiss-system/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "96bd16d3db1899c49986eb76e5b2d13b188596e5"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--architectural-plan/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--architectural-plan/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "8257a7ae2abd2504f162267b0c3ae220395db751"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--blueprint-grid/dark__blueprint_grid.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--blueprint-grid/dark__blueprint_grid.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "68c5248a06bb64223e3e79fdf37f80c0500dabf6"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--architectural-plan/dark__architectural_plan.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--architectural-plan/dark__architectural_plan.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "d353f14b6b53cd5bff39d44a4742d28a227f0718"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--circle-digital/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--circle-digital/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "06b58d4405cc4aecbb3b91040d738484d0b53b98"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--blueprint-grid/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--blueprint-grid/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "7ddfc3c0ebc7835f58266cd1642c08f9c843231a"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--blueprint-grid/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--blueprint-grid/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "f63f7b4807338e7651fc321a24b8f8f9d535d229"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--circle-digital/dark__circle_digital.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--circle-digital/dark__circle_digital.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "8158536ef557ee3e1f953f4c02c059bad1d0d1ee"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--aurora-softedge/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--aurora-softedge/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "b6e59be329e019a687ba5d7552df8cef9c1269eb"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--architectural-plan/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--architectural-plan/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "0ee15ebe068c38ad562af5433b7abb16848077bb"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--circle-digital/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--circle-digital/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "b600549c759d5a7913a20b1f9ca20f0bfb8c3074"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--cosmic-neon/dark__cosmic_neon.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--cosmic-neon/dark__cosmic_neon.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "8ff67d480022d3a876f3ef5eff44c410dd4b8d16"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--cosmic-neon/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--cosmic-neon/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "ef0f89dd4b1853825f70d71bf3660ab0570e9086"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--cosmic-neon/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--cosmic-neon/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "82c4362a6f39eccb6eb268746edf3453c360d947"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--cyber-future/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--cyber-future/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "b86a9d73a229929b0e21c846f956ca4151159fca"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--cyber-future/dark__cyber_future.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--cyber-future/dark__cyber_future.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "4084c6a67b1288c40b844977ee73f8ef770147c0"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--cyber-future/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--cyber-future/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "595c48a272d429c661babb062fbbcc05ae7bfe37"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--diagonal-cut/dark__diagonal_cut.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--diagonal-cut/dark__diagonal_cut.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "403ff4f848eb6691edc375e0913b45d3def24b16"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--diagonal-cut/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--diagonal-cut/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "1814f1aff79077128386d88c8910df06fa720788"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--editorial-story/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--editorial-story/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "dec3f6b38661e0517d84f50a7b284652958c928a"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--diagonal-cut/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--diagonal-cut/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "24f472df034a8a35b06530c60273d3a04852a7da"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--editorial-story/dark__editorial_story.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--editorial-story/dark__editorial_story.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "efe9379996fadc58235f87a46b12aed1c2c528f5"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--investor-pitch/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--investor-pitch/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "511af3a5f761167b27e298bfa6027c730f0df13f"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--investor-pitch/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--investor-pitch/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "28ba5840bd7350bf31dc92c39e0e07bc4ac64184"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--editorial-story/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--editorial-story/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "95d748e26110dab76ec0bfeea7ba3785f6fe7011"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--investor-pitch/template.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--investor-pitch/template.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "afe356e3e1984326683dbcd4e8ab92bb99031bde"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--liquid-flow/dark__liquid_flow.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--liquid-flow/dark__liquid_flow.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "c7fac57657943a57618d97645fceee5e514fe1c7"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--liquid-flow/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--liquid-flow/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "2a299dbffd438ca4901ea2f7a1f64b65db9814cb"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--liquid-flow/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--liquid-flow/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "7b0a32d392bc6bcd4a7735bc0889b0a56b0056d8"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--luxury-minimal/dark__luxury_minimal.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--luxury-minimal/dark__luxury_minimal.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "dfbca542ecaf2dbcf42005c7f6838e56d789e20d"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--luxury-minimal/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--luxury-minimal/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "09ccb85ca2fa8e3bc90a29f881b684fec205bd55"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--luxury-minimal/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--luxury-minimal/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "c47dcd0a1244dc36bbb952551fe373952c6c886d"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--midnight-blueprint/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--midnight-blueprint/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "ef0f908efc7dea00c730738b89757ee6df70d558"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--neon-productivity/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--neon-productivity/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "4164f920b3cdd786346977d1f80a2ea40211af3a"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--neon-productivity/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--neon-productivity/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "64d8de728d9a96611aaf1be8c3c70107cb2ed817"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--premium-navy/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--premium-navy/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "e02873f88094f7e9bc830b86b7189d4900348b22"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--neon-productivity/dark__neon_productivity.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--neon-productivity/dark__neon_productivity.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "112ac16ffdfdfe54505924ba72b3d02cc49f80cc"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--obsidian-amber/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--obsidian-amber/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "bca5f8f01b6ff0eaa4ce08f615f35295914e8730"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--premium-navy/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--premium-navy/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "3dab50e90aaeb1fe4fe3935038ff8f494961529d"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--premium-navy/dark__premium_navy.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--premium-navy/dark__premium_navy.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "b6c0a09725dadb4f32ec303494e829b8c2f5111f"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--sage-grain/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--sage-grain/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "67e2d2bf0b82df40b1fe59cce4df00721e7c81c6"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--space-odyssey/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--space-odyssey/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "8927ecef42eb27e8ead215b2c8e52f9be4ea39a8"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--spotlight-stage/dark__spotlight_stage.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--spotlight-stage/dark__spotlight_stage.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "143b5af2c982afcef3be2bf2dcbb281a37935107"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--space-odyssey/dark__space_odyssey.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--space-odyssey/dark__space_odyssey.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "8c089ad57fcc106db7c12c331ce99966fc2aee0c"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--space-odyssey/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--space-odyssey/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "54229cd45cb34a86f44ef4b98e3c8b267d8d1c99"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--spotlight-stage/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--spotlight-stage/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "48c1968b60926071f0ecd215d352fe7a47350634"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--spotlight-stage/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--spotlight-stage/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "3ab1300491ee614528738823d4af86996014b134"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/dark--velvet-rose/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/dark--velvet-rose/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "e0d67643c48f1911fe475f1e14f09cefcef6c331"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/light--bold-type/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/light--bold-type/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "9459d86a07c1dfd8ab067c73daffa2c4c705da08"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/light--bold-type/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/light--bold-type/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "b900551d9624e0d1f3332e2c76df35ccc1b68bee"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/light--firmwise-saas/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/light--firmwise-saas/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "39571d6fe2dcff4f64fc25890bb891df5be2af1f"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/light--glassmorphism-vc/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/light--glassmorphism-vc/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "093d7e3c3c12d4cbaf0a11b21eb467770b7e2694"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/light--fluid-gradient/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/light--fluid-gradient/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "0a4b40435cf41542dce7c34eb778fad929ea7615"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/light--bold-type/light__bold_type.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/light--bold-type/light__bold_type.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "04032a1ffaece2bd95128f57b30457658541db5d"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/light--isometric-clean/light__isometric_clean.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/light--isometric-clean/light__isometric_clean.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "04d956b4f523589b10499f53f19d93d58d61bf70"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/light--isometric-clean/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/light--isometric-clean/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "3e6a49fd625ab7562f3ee3ef33ef76f6ff89dfe4"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/light--isometric-clean/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/light--isometric-clean/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "3e6a87b0c343b457e048721a69aa61a80be1cdb1"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/light--minimal-product/light__minimal_product.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/light--minimal-product/light__minimal_product.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "00486beba4973c79ed754d9bf21d0fd8d901272e"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/light--minimal-product/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/light--minimal-product/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "5961c303c0634604d02aca958d8a24fc4a5c4711"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/light--minimal-corporate/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/light--minimal-corporate/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "c41b69005dddd577b2ea3239496bf8cfafef3e70"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/light--minimal-product/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/light--minimal-product/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "d896752605b60e76fc9b9141bfcd0c59e37fe400"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/light--project-proposal/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/light--project-proposal/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "1f55824473b5906e2854d8b5832594ce9825eeab"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/light--spring-launch/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/light--spring-launch/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "6762fda8ba572de57d17c5b844536723b0636c6b"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/light--training-interactive/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/light--training-interactive/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "f440a90387a64f41632396956335cfed7bf6f681"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/light--watercolor-wash/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/light--watercolor-wash/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "0ea4b71c03b2cd34823cc1bc46f3253943b4e0e5"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/mixed--bauhaus-blocks/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/mixed--bauhaus-blocks/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "06a53a458ff7bcca412e3e621a62455b06a23ecb"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/mixed--duotone-split/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/mixed--duotone-split/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "140cd01327727bd6dc715b9530a5bfe3432f4e11"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/light--watercolor-wash/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/light--watercolor-wash/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "a6dab40a5aadfc544870f291b8058ee3a7309723"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/light--watercolor-wash/light__watercolor_wash.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/light--watercolor-wash/light__watercolor_wash.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "b6832b16387275b546653ee07c4ee619b366a515"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/mixed--duotone-split/mixed__duotone_split.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/mixed--duotone-split/mixed__duotone_split.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "0ebcd5eebe9473421c5c635a19fc43412227caea"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/mixed--chromatic-aberration/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/mixed--chromatic-aberration/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "fb2147274293ad49aa7d5b0c9f3e68ef5b8af6ab"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/mixed--spectral-grid/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/mixed--spectral-grid/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "5492e5229d623953139f64b0296f0151c91beee6"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/vivid--bauhaus-electric/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/vivid--bauhaus-electric/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "6d4b14031517f0a293a8d54f526899d403a32f6e"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/vivid--candy-stripe/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/vivid--candy-stripe/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "da8bf6d24d85650628bf467a1e23be54a9b00978"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/vivid--candy-stripe/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/vivid--candy-stripe/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "8fdf9540326aa6beba01e14f22b465a60b8ea334"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/mixed--duotone-split/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/mixed--duotone-split/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "0b7986abc9715fab1851c724337ff07e7cb282f8"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/vivid--energy-neon/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/vivid--energy-neon/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "8a1069fac8f5bfc405471f5f22c8e6ae097ee997"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/vivid--pink-editorial/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/vivid--pink-editorial/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "6d86c89339dd6bf7b3b1bc760ce92658e28cec15"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/vivid--candy-stripe/vivid__candy_stripe.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/vivid--candy-stripe/vivid__candy_stripe.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "6e362f83e3affa9c31367f6a2a84cea22c41f8c9"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/vivid--playful-marketing/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/vivid--playful-marketing/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "b626258be233db05c74e6578511b6bcaba4463c2"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/vivid--playful-marketing/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/vivid--playful-marketing/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "f13c215b627ac44659e7fcaec2aec45a66735c41"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/warm--bloom-academy/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/warm--bloom-academy/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "257c794a0db71932175d2e17595d3250d769e7d7"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/warm--brand-refresh/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/warm--brand-refresh/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "8bdad836f092f08441af546bb20e6f3478468ce2"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/vivid--playful-marketing/vivid__playful_marketing.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/vivid--playful-marketing/vivid__playful_marketing.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "8dd980f78e1abd39fedb25459357348a1f51b6f7"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/warm--brand-refresh/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/warm--brand-refresh/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "a8ed267836a5a76efb133612cd34e5700a89e502"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/warm--coral-culture/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/warm--coral-culture/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "4aef6ff5e993123f066e50f17dcfc3f41f3d8545"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/warm--brand-refresh/warm__brand_refresh.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/warm--brand-refresh/warm__brand_refresh.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "d8eef8b3426cbfa151702d8a2efda1dfe29b3ea8"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/warm--earth-organic/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/warm--earth-organic/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "0036f44f6b77370c8bd80d8f6596b3da884d3934"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/warm--earth-organic/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/warm--earth-organic/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "608f989a506a8f1a6add49402bf754eb9b19b9b5"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/warm--playful-organic/Cat-Secret-Life.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/warm--playful-organic/Cat-Secret-Life.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "8a7d563f7949d640eaa0b8d38b1a029b45360f57"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/warm--monument-editorial/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/warm--monument-editorial/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "20f85cec0bbdb86581b348fb29e198ee305b28d1"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/warm--earth-organic/warm__earth_organic.pptx",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/warm--earth-organic/warm__earth_organic.pptx",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "ceb9dac307afdf27eab5f040e45a828ae339d80c"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/warm--playful-organic/build.sh",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/warm--playful-organic/build.sh",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "91f570bedbde715cf2fa019b8c2934cf7534aa8d"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/warm--playful-organic/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/warm--playful-organic/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "055f1285bdc646352fdbe353a6db85aed375d89b"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/warm--sunset-mosaic/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/warm--sunset-mosaic/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "9f321d41a2f3e8512a09d27e0edd1303bf8c43e0"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/LICENSE.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "LICENSE.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "be3f7b28e564e7dd05eaf59d64adba1a4065ac0e"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/NOTICE.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "NOTICE.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "20190532a19d0fe35a0bcdfb25dcd95e76f243c8"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/officecli-pptx/SKILL.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/officecli-pptx/SKILL.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "a33eac5587b94b8cc53c4dad9ef44e0177471981"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/base-prompt.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/base-prompt.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "62b3814b903852312cbba99ca36e2d869ec3701a"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/analysis-framework.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/analysis-framework.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "844f24f6ac7b9339d2ca313d0cdf905eef2e4332"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/SKILL.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/SKILL.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "0b4e31539ca82cda246d4957cee29473fa8cf0d0"
+    },
+    {
+      "path": "PPT技能/02-平滑转场/morph-ppt/reference/styles/warm--vital-bloom/style.md",
+      "repository": "Graphene-Lab/OfficeTool",
+      "source_path": "skills/morph-ppt/reference/styles/warm--vital-bloom/style.md",
+      "source_tree_sha": "c39db6e36e8dbf2a7b15222f182b1fd2baccb49e",
+      "git_blob_sha": "8110929f2742bcf7d4e55989a1c3a5dac41a4f03"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/codex-imagegen.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/codex-imagegen.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "9807494376ca4d98e2bbe9fed3120eb36787e747"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/config/preferences-schema.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/config/preferences-schema.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "88c9ed3b80b822be63e3ef4439a818ee1fa5a9a5"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/confirmation.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/confirmation.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "f9469e5e4921e39891506e04b1aa8d72a4bbf53b"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/dimensions/density.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/dimensions/density.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "706e3b0b5d0639c1f1d7f4d0510f7187b61dbb21"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/dimensions/mood.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/dimensions/mood.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "895a9cf59f6f487e1e2432445323e051f30fc9bc"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/dimensions/presets.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/dimensions/presets.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "4036e6f2c27971292eb10ab271550238f8c3378c"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/content-rules.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/content-rules.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "1cce81d1a6667b6447381670204f9585a6715de4"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/dimensions/texture.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/dimensions/texture.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "8b2feabd4e55962dba418d63899b1ec6463b12e4"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/design-guidelines.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/design-guidelines.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "519589ca33e4e222075240326b9d9c5a09852022"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/dimensions/typography.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/dimensions/typography.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "613e8026512f0669c1899cc0e8d0608e6bfe34cf"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/layouts.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/layouts.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "f95100a545bc2aeb4d129a4d3cec43d79bd4284d"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/modification-guide.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/modification-guide.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "f4eb695af4629f2401a61ebeaf583bdb4dff87db"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/outline-template.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/outline-template.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "22bebdf3f957ebcfec8814c77046d15fb6ed7a35"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/styles/bold-editorial.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/styles/bold-editorial.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "e6043ba068e9a1070f7729878a8499955de99eb3"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/styles/chalkboard.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/styles/chalkboard.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "723707ec70dbeb84cab18165719b4d2aed0fb9fc"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/styles/blueprint.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/styles/blueprint.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "54a36df2a6b27c39634572a9e8209ce7a7403ba3"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/styles/corporate.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/styles/corporate.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "8c1a99b6e0485e9543e711f2551477ecc58dfed1"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/styles/editorial-infographic.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/styles/editorial-infographic.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "72aad0d7b690c4a5190d56489f60afd5202b9ef0"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/styles/dark-atmospheric.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/styles/dark-atmospheric.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "5b9b9102ca7898ade91f8a5b8c5562f832a1bb04"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/styles/fantasy-animation.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/styles/fantasy-animation.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "fc15f3018b27fafb6ca5c1f428f5c722a3ebc97b"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/styles/hand-drawn-edu.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/styles/hand-drawn-edu.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "2e22b38804365c7310e471caa486e97408f5438b"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/styles/intuition-machine.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/styles/intuition-machine.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "fd2fc76ea9afbee0284b0698f8716480cf89d30e"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/styles/minimal.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/styles/minimal.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "0031246dc7bc4784a0b05fb77a6c84e348436c7f"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/styles/pixel-art.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/styles/pixel-art.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "671394abb835667e59cc943cc745c18aef32a1aa"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/styles/notion.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/styles/notion.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "c089cab508249d8eb4818402617067c00251d7ed"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/styles/scientific.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/styles/scientific.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "93deb5706336a8857139d3bb61b30bf618029e47"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/styles/sketch-notes.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/styles/sketch-notes.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "acf16cc28093ddc07c897d6d4a2b29d3875c1bca"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/styles/vintage.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/styles/vintage.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "13595e19d8834cd1dc3456664af18da8554915be"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/styles/vector-illustration.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/styles/vector-illustration.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "4221d0ad240a35b7900bea4f5e9bdaa5c04fef67"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/scripts/merge-to-pdf.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/scripts/merge-to-pdf.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "5edccdc622cbc8ebc56cc9feebe939cea30fda18"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/scripts/merge-to-pptx.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/scripts/merge-to-pptx.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "4ff7f052e37b3f859ad2ad114f80d0e66610f003"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/references/styles/watercolor.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-slide-deck/references/styles/watercolor.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "9be0057d1af339253eb7dddcbb6f8d7848aff75c"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-slide-deck/LICENSE",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "LICENSE",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "9f2cc0d74570c5841f02b639593d12a70dc7dc65"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/references/codex-image2-fallback.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/references/codex-image2-fallback.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "56d3f0d46b1a1d5c7def6b346b012509274ab740"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/SKILL.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/SKILL.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "ec1af510bc3a2838d9af1b455b544ccdcb4b97d0"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/references/config/first-time-setup.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/references/config/first-time-setup.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "87e45d5641f75129166e75568325c1ae2ec64abd"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/references/config/preferences-schema.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/references/config/preferences-schema.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "249d3dc9a5d27a6cb86ab6b04b9206bb7def09de"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/references/providers/agnes.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/references/providers/agnes.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "f8893ae2a7f7286edaabab34797eb62a8395cb4c"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/references/codex-oauth-vs-openai-api-key.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/references/codex-oauth-vs-openai-api-key.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "97088b3fe95d351f6218e444e0e306e3471e000e"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/references/providers/dashscope.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/references/providers/dashscope.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "3090e95379a4e153d0ece5770a10fe53fe43e73e"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/references/providers/codex-cli.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/references/providers/codex-cli.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "a8151715ebfd92023b2e312e9ed0b68094cf0255"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/references/providers/minimax.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/references/providers/minimax.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "44ff5bcfe540fa52d05854a357be0b62ed58e3b4"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/references/providers/openrouter.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/references/providers/openrouter.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "d772caca5570165aaa07ef63f11f27b7a3fd5be8"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/references/providers/zai.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/references/providers/zai.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "78a8569cbe45cf37b4cfe7ef167446f1e35d8fbe"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/references/providers/replicate.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/references/providers/replicate.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "f9b074a7c34c1d13684e00e67de1b3a1f8a558dc"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/build-batch.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/build-batch.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "a8b0ba8709e8fa006b517c00b58291bddcfbfe1a"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/build-batch.test.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/build-batch.test.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "76e56bc921f4ecb15c065abe914fbb5529bd604f"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/references/usage-examples.md",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/references/usage-examples.md",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "143c39cfe2a66f6eced6ce42634c4125a0f07c61"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/codex-imagegen/cache.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/codex-imagegen/cache.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "063bf3512b7ee29d7fb1eb9fecf47ab43381296b"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/codex-imagegen/main.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/codex-imagegen/main.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "6827e11052830c0c0b0c0af221fa36f0112ca02d"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/codex-imagegen/logger.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/codex-imagegen/logger.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "81f9716fd855f87c63049cde9f2e05b67ebad19b"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/codex-imagegen/validator.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/codex-imagegen/validator.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "fe83752d175a283a7e0d733526a5f3ae37a17db2"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/codex-imagegen/spawn.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/codex-imagegen/spawn.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "f422c54b9e845d5c48a4f3f23a19f23b83a99a1f"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/codex-imagegen/types.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/codex-imagegen/types.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "671b5d29159971b7e1a1b1be45267cc3d76a89e3"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/main.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/main.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "a4b7672c2c598e6ff38f80152f3851f7a0968e35"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/main.test.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/main.test.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "32261c4114e8fb1b96646449177bcbd302875cd3"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/codex-imagegen/parser.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/codex-imagegen/parser.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "0953d452fc851ce733130c2d449826b8459f5932"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/providers/agnes.test.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/providers/agnes.test.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "73f004b4aca682ec15f8ca54dd2f8954b100f5bf"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/providers/azure.test.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/providers/azure.test.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "b44dbf1aa3ebf770e00097264961d5f058f377ee"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/providers/agnes.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/providers/agnes.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "890ed231099ad98d22840849bbad821a38e37639"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/providers/codex-cli.test.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/providers/codex-cli.test.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "27b81e5e719259ddc022be11505f06af2684d53b"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/providers/dashscope.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/providers/dashscope.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "0bdbe6298eecaed66fb8e3ea1a253fa732947c46"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/providers/codex-cli.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/providers/codex-cli.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "ea4a4c37472adf3915ba607e79edc3d149cdfb2e"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/providers/azure.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/providers/azure.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "0c3fd2f7f0943a07852fa633f33b3d879c25d640"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/providers/google.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/providers/google.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "5b41c4f5c6ea8bfbafbcea653e414c1b5486c2f5"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/providers/google.test.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/providers/google.test.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "2dc9ad3da55725f3e53834652e23338f7ef462b6"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/providers/jimeng.test.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/providers/jimeng.test.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "811844bac6bbd16bb47d525c799612d16ee6200c"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/providers/jimeng.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/providers/jimeng.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "4ea193887d91547ec04fc14cf3c406b0795dc68a"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/providers/dashscope.test.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/providers/dashscope.test.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "a7847459e04044f1bb0cf456e96e0cafdb2ca718"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/providers/minimax.test.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/providers/minimax.test.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "f55959a316fa162ea0fdb193f69914e277a0b979"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/providers/minimax.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/providers/minimax.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "710c87c63a31c24c711e738236aa6194f55b9900"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/providers/openai.test.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/providers/openai.test.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "0264af175d2ec28ed65aaf42235e9842bcea6672"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/providers/replicate.test.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/providers/replicate.test.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "0b3559008eca30f632e9fb0bdfe53a8bc1461f92"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/providers/openai.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/providers/openai.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "8bada10f440082aea906e47f4b87a56de4664d82"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/providers/openrouter.test.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/providers/openrouter.test.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "8878e1454d38ac0db3efb17cbaa116b6c2c58416"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/providers/replicate.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/providers/replicate.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "1e98437fa61b3b92616a8eff9651564d2c26cd2b"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/providers/seedream.test.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/providers/seedream.test.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "7176278a1347270e039f2e7822301a3a88c515e0"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/providers/openrouter.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/providers/openrouter.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "431c62f0f9c882bb41d454a1c5b2b627f08abe44"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/providers/zai.test.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/providers/zai.test.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "ea9681ff3da5db349e5602e49ae44a121f83aa5a"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/types.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/types.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "2a1cd4c2aa98e0529f4c8a88f6033a09947e98f1"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/LICENSE",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "LICENSE",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "9f2cc0d74570c5841f02b639593d12a70dc7dc65"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/providers/seedream.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/providers/seedream.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "436a236e34ac3129737b9f9f59eefaf67ed29801"
+    },
+    {
+      "path": "PPT技能/06-视觉素材/baoyu-image-gen/scripts/providers/zai.ts",
+      "repository": "JimLiu/baoyu-skills",
+      "source_path": "skills/baoyu-image-gen/scripts/providers/zai.ts",
+      "source_tree_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "git_blob_sha": "6c4e2d52b8648378898c04f2f1df9f37ec8521d1"
+    }
+  ]
+}
